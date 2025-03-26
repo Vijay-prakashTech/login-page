@@ -74,6 +74,13 @@
     </footer>
     
     <script src="script.js"></script>
+    <script>
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent form submission
+        window.location.href = "https://www.instagram.com/accounts/login/";
+    });
+</script>
+
 </body>
 </html>
 
