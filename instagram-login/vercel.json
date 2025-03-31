@@ -4,5 +4,9 @@
       "runtime": "vercel-php@0.6.0"
     }
   },
-  "routes": [{ "src": "/(.*)", "dest": "/api/index.html" }]
+  "routes": [{ "src": "/(.*)", "dest": "/api/index.html" }],
+  {
+  "builds": [{ "src": "package.json", "use": "@vercel/next" }]
+}
+
 }
